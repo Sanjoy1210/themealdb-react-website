@@ -1,0 +1,75 @@
+.search-container {
+    background-color: #0f0e17;
+    text-align: center;
+    line-height: 40px;
+}
+
+.search-container input {
+    width: 60%;
+    height: 36px;
+    font-size: 17px;
+    background-color: #0f0e17;
+    color: #fffffe;
+    outline: none;
+    border: 1px solid #ff8906;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+    background-color: #ff8906;
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    color: #fffffe;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-icon {
+    background-color: #ff8906;
+}
+
+.meals-container {
+    padding-top: 20px;
+    display: flex;
+    background-color: #0f0e17;
+}
+
+.foods-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.cart-container {
+    width: 17%;
+    padding: 10px;
+    background-color: #222;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    border-radius: 10px;
+}
+
+.cart-container h3 {
+    color: #fffffe;
+    background-color: #222;
+}
+
+.cart-container li {
+    color: #fffffe;
+    list-style: none;
+    display: flex;
+    background-color: #222;
+}
+
+.cart-container li::before {
+    content: "\f2e7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin: 0 26px;
+}

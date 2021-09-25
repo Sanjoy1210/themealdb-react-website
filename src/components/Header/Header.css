@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #000; */
+    align-items: center;
+}
+
+.logo a {
+    color: #ff8906;
+    text-decoration: none;
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+}
+
+.nav li a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
